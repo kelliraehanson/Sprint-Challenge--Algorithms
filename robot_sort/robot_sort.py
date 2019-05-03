@@ -97,7 +97,21 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        pass
+        
+        while self._light == "OFF": #Turn on robot and show list of it's tasks to sort.
+            self.set_light_on()
+        print(f"\n\n** This is the list the robot is tasked with sorting:\n\n {self._list} **\n\n")
+
+
+# You have been given a robot with very basic capabilities:
+
+#   * It can move left or right.
+#   * It can pick up an item
+#     * If it tries to pick up an item while already holding one, it will swap the items instead.
+#   * It can compare the item it's holding to the item in front of it.
+#   * It can switch a light on its head on or off.
+
+# Your task is to program this robot to sort lists using ONLY these abilities.
 
 
 if __name__ == "__main__":
