@@ -13,8 +13,6 @@ Answer: 0(n^2)
 
 I would describe this as being 0(n^2) because the while is the largest
 and will make "n" larger as it is run.
-
-
 ```
 
 b)  sum = 0
@@ -31,8 +29,7 @@ b)  sum = 0
 ```
 Answer: 0(n^3)
 
-For this code I would say it is 0(n^3) because there are three ensted for loops in the code. So, each time the outer loop runs the inner loop also runs.
-
+For this code I would say it is 0(n^3) because there are three nested for loops in the code. So, each time the outer loop runs the inner loop also runs.
 ```
 
 c)  def bunnyEars(bunnies):
@@ -40,35 +37,36 @@ c)  def bunnyEars(bunnies):
         return 0
 
       return 2 + bunnyEars(bunnies-1)
-
 ```
 Answer: 0(n)
 I would describe this as the "bunnyEars" is being called called "bunnies" times 
 until "bunnies" is == 0 (equal to zero true). "bunnies" decrements by one each time. Linear. 
-
-
 ```
 ### What is Time Complexity?
 
 ```
 Extra explanation:
 
-Above are all examples of Time Complexity. Which is something in Computer Science that describes the amount of time it takes to run a specific algorithm. To describe what it does one would say that the time an algorithm takes to run is estimated by counting the number of operations in the algorithm. There are three cases of this: best-case, average-case, and worst-case. Usually we are finding the worst-case for example the value of the last element in a list ([1, 2, 3, 4, 5]). To find these we use something called a Linear Search. A Linear Search is a method for finding an element within a list. It check each element in the list until a match is found or the whole list has been sesarched. 
+Above are all examples of Time Complexity. Which is something in Computer Science that describes the amount of time it takes to run a specific algorithm. 
+
+To describe what it does one would say that the time an algorithm takes to run is estimated by counting the number of operations in the algorithm. There are three cases of this: best-case, average-case, and worst-case. Usually we are finding the worst-case for example the value of the last element in a list ([1, 2, 3, 4, 5]). 
+
+To find these we use something called a Linear Search. A Linear Search is a method for finding an element within a list. It check each element in the list until a match is found or the whole list has been sesarched. 
 
 To describe the Time Complexity of an algorithm we use something called Big-O Notation. This is used to describe algorithms according to how their running time or space requirements grow as the input size (n) grows.
-
 ```
 
 ### Table of Common Time Complexities
 
-|----------Name--------|--Time Complexity--|
-|------Constant Time---|---------0(1)------|
-|---Logarithmic Time---|-------0(log n)----|
-|-----Linear Time------|-------0(n)--------|
-|---Quasilinear Time---|-----0(n log n)----|
-|----Quadratic Time----|-------0(n^2)------|
-|---Exponential Time---|-------0(2^n)------|
-|----Factorial Time----|--------0(n!)------|
+|          Name        |  Time Complexity  |
+|----------------------|-------------------|
+|      Constant Time   |         0(1)      |
+|   Logarithmic Time   |       0(log n)    |
+|     Linear Time      |       0(n)        |
+|   Quasilinear Time   |     0(n log n)    |
+|    Quadratic Time    |       0(n^2)      |
+|   Exponential Time   |       0(2^n)      |
+|    Factorial Time    |        0(n!)      |
 
 ## Exercise II
 
